@@ -1,0 +1,4 @@
+name = CKEditor Social Links
+description = Allows you to add social links via CKEditor.
+core = 7.x
+dependencies[] = ckeditor

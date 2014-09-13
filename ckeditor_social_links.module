@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Main file of this module.
+ */
+
+function ckeditor_social_links_ckeditor_plugin() {
+  return array(
+    'sociallinks' => array(
+      'name' => 'socialLinks',
+      'desc' => t('Social links'),
+      'path' => drupal_get_path('module', 'ckeditor_social_links') . '/plugins/social_links/',
+      'buttons' => array(
+        'sociallinks' => array(
+          'icon' => 'icon.png',
+          'label' => 'Social links',
+        ),
+      ),
+    ),
+  );
+}
